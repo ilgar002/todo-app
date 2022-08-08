@@ -562,8 +562,11 @@ body:before {
     width: 25%;
     padding: 5px !important;
   }
-  .todo .editForm input {
+  .todos .todo .editForm input {
     width: 40%;
+  }
+  .todos .todo .buttons {
+    right: 10px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -133,6 +133,7 @@ body {
         border-top: 1px solid white;
         margin-bottom: 30px;
         font-family: 'Roboto', sans-serif;
+
         .todos {
             height: 275px;
             overflow-y: scroll;
@@ -182,6 +183,7 @@ body {
                     flex: 1;
                     margin-left: 15px;
                     font-size: 1.2rem;
+
                     &.hide {
                         display: none;
                     }
@@ -450,12 +452,19 @@ body {
         padding: 5px !important;
     }
 
-    .todo {
-        .editForm {
-            input {
-                width: 40%;
+    .todos {
+        .todo {
+            .editForm {
+                input {
+                    width: 40%;
+                }
+            }
+
+            .buttons {
+                right: 10px !important ;
             }
         }
     }
+
 
 }
