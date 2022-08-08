@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List</title>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container animated-box in">
+        <header>
+            <h1>Todo List</h1>
+            <form class="todoForm">
+                <input class="todoInput" type="text" placeholder="Add new Todo">
+                <button class="createNewTodo" type="submit">
+                    add
+                </button>
+            </form>
+            <div class="filter">
+                <div class="option">Completed</div>
+                <div class="option current">All</div>
+                <div class="option">Uncompleted</div>
+            </div>
+        </header>
+        <main>
+            <div class="todos">
+                <h2 class="entranceMessage">No Todo Yet</h2>
+            </div>
+        </main>
+        <summary>
+            <p class="countOfTodos">
+                Todos: 5
+            </p>
+            <button class="clearAll">Clear All</button>
+        </summary>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
